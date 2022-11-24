@@ -20,9 +20,15 @@ article{
     background-color: rgb(15, 67, 79);
 }
 nav{
+    display: flex;
+    padding: 30px;
+    font-size: 1.5em;
     font-family: Rubik Glitch;
     grid-area: n;
     background-color: rgb(68, 120, 132);
+}
+nav a{
+    margin-right: 30px;
 }
 head{
     font-family: Patrick Hand;
@@ -43,4 +49,15 @@ main{
     "n n n"
     "a a a"
     "f f f";
+}
+.oldal{
+    background-color: rgb(37, 92, 105);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "m m m"
+    "m m m";
+}
+.marka{
+    grid-area: m;
 }
