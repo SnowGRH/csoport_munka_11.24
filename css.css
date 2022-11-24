@@ -5,18 +5,27 @@ main,article,nav,head,footer{
     border: 1px solid black;
 }
 article{
+    font-family: Raleway;
     grid-area: a;
+    background-color: rgb(15, 67, 79);
 }
 nav{
+    font-family: Rubik Glitch;
     grid-area: n;
+    background-color: rgb(68, 120, 132);
 }
 head{
+    font-family: Patrick Hand;
     grid-area: h;
+    background-color: rgb(107, 148, 158);
 }
 footer{
+    font-family: Patrick Hand;
     grid-area: f;
+    background-color: rgb(107, 148, 158);
 }
 main{
+    background-color: rgb(37, 92, 105);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
