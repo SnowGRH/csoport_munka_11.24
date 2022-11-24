@@ -1,0 +1,27 @@
+Colors:
+
+    main:
+        rgb(37, 92, 105)
+    article:
+        rgb(15, 67, 79)
+    header, footer:
+        rgb(107, 148, 158)
+    navbar:
+        rgb(68, 120, 132)
+
+Fonts:
+    
+    https://fonts.google.com/specimen/Raleway
+    https://fonts.google.com/specimen/Patrick+Hand
+    https://fonts.google.com/specimen/Rubik+Glitch
+
+    header, footer:
+        font-family: Patrick Hand
+    
+    article:
+       font-family: Raleway
+     
+    navbar:
+        font-family: Rubik Glitch
+
+        
