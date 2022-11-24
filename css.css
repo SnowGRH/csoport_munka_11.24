@@ -1,0 +1,9 @@
+article{
+    grid-area: a;
+}
+nav{
+    grid-area: n;
+}
+head{
+    grid-area: h;
+}
