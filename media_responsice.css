@@ -25,9 +25,19 @@ main{
     "a a a"
     "f f f";
 }
+.olcso{
+    background-color: rgb(37, 92, 105);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "m m m"
+    "m m m";
+}
+.marka{
+    grid-area: m;
+}
 @media only screen and (max-width: 600px) {
     main{
-        display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "h h" 
@@ -38,13 +48,20 @@ main{
     .kep{
         width: 60%;
     }
-    
+    .olcso{
+        background-color: rgb(37, 92, 105);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "m m"
+        "m m"
+        "m m";
+    }
     
 }
 
 @media only screen and (max-width: 400px) {
     main{
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "h" 
@@ -54,5 +71,17 @@ main{
     }
     .kep{
         width: 40%;
+    }
+    .olcso{
+        background-color: rgb(37, 92, 105);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "m"
+        "m"
+        "m"
+        "m"
+        "m"
+        "m";
     }
 }
