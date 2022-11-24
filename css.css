@@ -20,9 +20,15 @@ article{
     background-color: rgb(15, 67, 79);
 }
 nav{
+    display: flex;
+    padding: 30px;
+    font-size: 1.5em;
     font-family: Rubik Glitch;
     grid-area: n;
     background-color: rgb(68, 120, 132);
+}
+nav a{
+    margin-right: 30px;
 }
 head{
     font-family: Patrick Hand;
