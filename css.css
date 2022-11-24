@@ -3,7 +3,17 @@
 }
 main,article,nav,head,footer{
     border: 1px solid black;
+    color: white;
 }
+a{
+    color: wheat;
+    text-decoration: none;
+    transition: .5s;
+}
+a:hover{
+    color: white;
+}
+
 article{
     font-family: Raleway;
     grid-area: a;
