@@ -35,6 +35,9 @@ main{
         "a a"
         "f f";
     }
+    .kep{
+        width: 60%;
+    }
     
 }
 
@@ -48,5 +51,7 @@ main{
         "a"
         "f";
     }
-  
+    .kep{
+        width: 40%;
+    }
 }
